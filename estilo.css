@@ -1,0 +1,141 @@
+/* DOCUMENTO CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	height: 130px;
+	display: flex;
+    background-color: #ED3237;
+	justify-content: left;
+	align-items: center;
+	color: #fff;
+}
+
+header figure {
+	width: 300px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+header figure img {
+	width: 100%;
+}
+header h1 span {
+	font-size: 12px;
+	font-weight: 100;
+	margin-left: 10px;
+}
+header h1, p {
+	text-shadow: 1px 1px 5px black;
+	margin-bottom: 10px;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+	flex-wrap: wrap;
+
+}
+.boxaluno {
+	width: 190px;
+	height: 350px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #a4a4a4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-image: linear-gradient( to bottom right, #ED1C24 60%, #950d15 ); 
+	margin:0 10px 40px 10px;
+
+}
+.boxaluno figure {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+
+}
+.boxaluno figure img {
+	width: 100%;
+	height: 10em;
+	border-radius:100%;
+
+}
+.boxaluno h2{
+	text-shadow: 1px 1px 5px black;
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	height: 100px;
+
+}
+.boxaluno:hover {
+	box-shadow: 5px 5px 10px yellow;
+
+}
+
+footer {
+	height: 50px;
+background-image: linear-gradient( to bottom, #ED1C24 60%, #950d15 ); 
+text-align: center;
+padding-top: 20px;
+color: white;
+font-style: italic;
+}
+.boxprof {
+	width: 240px;
+	height: 250px;
+
+}
+.boxprof h2 {
+	font-size: 20px ;
+	
+}
+.boxaluno figure {
+	width: 180px;
+	height: 180px;
+
+}
+.boxaluno figure img {
+	width: 100%;
+	border-radius:100%;
+
+}
+.boxaluno p{
+	margin: 0px 90px 10px 0;
+	color: white;
+	font-size: 14px;
+	font-weight: none;
+}
+.boxaluno a{
+	text-decoration: none;
+}
+.boxaluno button {
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	font-weight: 300;
+	color: white;
+	height: 30px;
+	border-radius: 4px;
+	background: linear-gradient(to bottom,#37bc16,#33991a);
+	margin-bottom: 10px;
+}
+.boxaluno button:hover {
+	font-weight: 700;
+}
+.boxaluno .btlivraria {
+	color: black;
+	background-image: none;
+	background-color: gray;
+
+}
+.boxaluno .btlivraria:hover {
+	font-weight: 300;
+	cursor: default;
+}
